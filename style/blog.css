@@ -5,19 +5,41 @@ body {
 }
 
 /* Navbar */
-.nav-bar {
-    background-color: #085f63;
-    color: #fff;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+header {
+    padding-bottom: 20px;
 }
 
-.square{
+.sections ul li {
+    list-style: none;
+    display: inline;
+    padding-right: 40px;
+    position: sticky;
+
+}
+
+.sections ul {
+    margin-left: 50px;
+
+}
+
+.sections ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+
+
+}
+
+.sections {
+    background-color: rgb(56, 109, 97);
+    padding: 4px 0px 4px;
+
+}
+
+.square {
     height: 45px;
     width: 45px;
-    box-shadow: 0px 0px 20px 2px inset  ;
+    box-shadow: 0px 0px 20px 2px inset;
     border: 2px solid rgb(232, 232, 232);
     border-radius: 8px;
     color: rgb(56, 109, 97);
@@ -25,42 +47,44 @@ body {
     margin-left: 30px;
 }
 
-#rotate{
-    transform:rotateZ(45deg);
+#rotate {
+    transform: rotateZ(45deg);
     position: relative;
     left: -82px;
 
 }
 
+.nav-bar {
+    height: 100px;
+    width: auto;
+    border-top: 12px solid rgba(229, 155, 19, 0.949);
+    position: sticky;
 
-.nav-bar h1 {
-    font-size: 24px;
 }
 
-.sections ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
+#title {
+    position: relative;
+    top: -85px;
+    left: 90px;
 }
 
-.sections ul li {
-    margin-right: 20px;
+.title {
+    height: 90px;
+    padding-left: 50px;
 }
 
-.sections ul li a {
-    color: white;
-    text-decoration: none;
-}
+
 
 /* Main Content */
 .center {
     padding: 20px;
     margin: 20px 100px 10px 100px;
 }
-p{
+
+p {
     font-size: larger;
 }
+
 h1 {
     color: #084c61;
 }
@@ -128,7 +152,3 @@ footer {
 .footer-section p {
     color: #e6e6e6;
 }
-
-
-
-
