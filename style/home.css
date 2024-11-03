@@ -1,8 +1,11 @@
-body{
+body {
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
 }
-.sections ul li{
+
+
+.sections ul li {
     list-style: none;
     display: inline;
     padding-right: 40px;
@@ -10,12 +13,12 @@ body{
 
 }
 
-.sections ul{
+.sections ul {
     margin-left: 50px;
 
 }
 
-.sections ul li a{
+.sections ul li a {
     text-decoration: none;
     color: white;
     font-size: 18px;
@@ -23,16 +26,16 @@ body{
 
 }
 
-.sections{
+.sections {
     background-color: rgb(56, 109, 97);
     padding: 4px 0px 4px;
-    
+
 }
 
-.square{
+.square {
     height: 45px;
     width: 45px;
-    box-shadow: 0px 0px 20px 2px inset  ;
+    box-shadow: 0px 0px 20px 2px inset;
     border: 2px solid rgb(232, 232, 232);
     border-radius: 8px;
     color: rgb(56, 109, 97);
@@ -40,55 +43,152 @@ body{
     margin-left: 30px;
 }
 
-#rotate{
-    transform:rotateZ(45deg);
+#rotate {
+    transform: rotateZ(45deg);
     position: relative;
     left: -82px;
 
 }
 
-.nav-bar{
+.nav-bar {
     height: 100px;
     width: auto;
     border-top: 12px solid rgba(229, 155, 19, 0.949);
     position: sticky;
-    
+
 }
 
-#title{
+#title {
     position: relative;
     top: -85px;
     left: 90px;
 }
 
-.title{
+.title {
     height: 90px;
     padding-left: 50px;
+    color: #084c61;
 }
 
-.content img{
+
+
+.boxes img {
     padding-left: 200px;
     padding-top: 80px;
     width: 900px;
     height: 300px;
 }
 
-.box div{
+.box button {
     display: inline-block;
     border: 2px solid rgb(56, 109, 97);
-    padding: 30px 65px;
-    margin-left: 40px;
+    padding: 30px 0;
+    width: 200px;
+    margin-left: 33px;
     color: rgb(56, 109, 97);
+    background-color: #ffffff;
+    /* Set the background color to white */
+    text-align: center;
+    cursor: pointer;
+    /* Optional: change cursor on hover */
 }
 
-.box{
+.box {
     margin-left: 160px;
     margin-top: 10px;
 }
 
-.box div:hover{
-    color: rgb(174, 174, 12);
+.box button:hover {
+    color: rgb(110, 110, 55);
     box-shadow: 2px 2px 5px rgb(56, 109, 97);
-    transform:rotateZ(-5deg);
+    background-color: #fbfbfb;
+    transform: rotateZ(-5deg);
+    font-weight: 600;
 
+}
+
+.center {
+    padding: 20px;
+    margin: 20px 100px 10px 100px;
+}
+
+.center h1 {
+    text-align: center;
+    color: rgb(56, 109, 97);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+p {
+    font-size: larger;
+}
+
+h1 {
+    color: #084c61;
+}
+
+.blog-post {
+    margin-bottom: 30px;
+}
+
+.blog-post h2 {
+    color: #010101;
+}
+
+.blog-post p {
+    color: #555;
+}
+
+.content {
+    display: flex;
+    margin-top: 10px;
+}
+
+.content img {
+    width: 600px;
+    height: 300px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.text {
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(56, 109, 97);
+    border-top: 12px solid rgba(229, 155, 19, 0.949);
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.footer-section {
+    width: 30%;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+    color: #e6e6e6;
+    text-decoration: none;
+}
+
+.footer-section p {
+    color: #e6e6e6;
 }

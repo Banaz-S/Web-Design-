@@ -1,6 +1,7 @@
 /* General Styles */
 body {
     margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
 }
 
@@ -121,7 +122,8 @@ h1 {
 footer {
     display: flex;
     justify-content: space-around;
-    background-color: #085f63;
+    background-color: rgb(56, 109, 97);
+    border-top: 12px solid rgba(229, 155, 19, 0.949);
     color: white;
     padding: 20px;
     margin-top: 30px;
