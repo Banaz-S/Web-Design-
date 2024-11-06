@@ -1,5 +1,3 @@
-
-
 body {
     margin: 0;
     padding: 0;
@@ -20,7 +18,7 @@ body {
 
 }
 
-.sections ul li a {
+.catalog {
     text-decoration: none;
     color: white;
     font-size: 18px;
@@ -67,7 +65,8 @@ header nav ul li a:hover {
 /* Sidebar */
 #sidebar {
     float: right;
-    width: 150%;
+    width: 5000px;
+    height: 150px;
     padding: 20px;
     background-color: rgb(237, 244, 241);
     border-top: 10px solid rgba(203, 63, 24, 0.949);
@@ -77,13 +76,14 @@ header nav ul li a:hover {
     color: rgb(56, 109, 97);
     font-size: 20px;
     margin-bottom: 10px;
-  
+
 }
 
 #sidebar ul {
     list-style-type: none;
     padding: 0;
-    margin-top: 15px; /* Add spacing above the list */
+    margin-top: 15px;
+    /* Add spacing above the list */
 }
 
 #sidebar ul li {
@@ -99,6 +99,7 @@ header nav ul li a:hover {
 #sidebar ul li a:hover {
     color: rgba(229, 155, 19, 0.949);
 }
+
 /* Blog Section */
 #content {
     display: flex;
@@ -111,7 +112,7 @@ header nav ul li a:hover {
 .blog-post {
     margin-bottom: 20px;
     padding: 15px;
-    
+
 }
 
 .blog-post h3 {
@@ -175,7 +176,7 @@ footer {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: rgb(237, 244, 241); 
+    background-color: rgb(237, 244, 241);
     min-width: 160px;
     border-radius: 4px;
     z-index: 1;
@@ -183,19 +184,25 @@ footer {
 
 .dropdown-menu li {
     padding: 10px;
+
+
 }
 
 .dropdown-menu li a {
     color: #054949;
     font-size: 16px;
     display: block;
-    padding: 8px 16px;
+    padding: 5px 20px;
     text-decoration: none;
     white-space: nowrap;
+    width: 100%;
+    position: relative;
+    left: -40px;
 }
 
 .dropdown-menu li a:hover {
-    background-color: rgba(227, 242, 237, 0.9); 
+    width: 100%;
+    background-color: rgba(227, 242, 237, 0.9);
     color: rgb(222, 211, 5);
 }
 
@@ -233,7 +240,7 @@ footer {
     color: #084c61;
 }
 
-#content img{
+#content img {
     width: 900px;
     height: 600px;
 }
