@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+    <link rel="stylesheet" href="/style/signup.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="nav-bar">
+        <div class="title">
+            <h1 class="square"></h1>
+            <h1 class="square" id="rotate"></h1>
+            <h1 id="title">WebDesign 2021 Assignment</h1>
+        </div>
+        <div class="sections">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="#">Layout Design</a></li>
+                <li><a href="#">Signup</a></li>
+                <li><a href="#">Signin</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="form-container">
+        <h2>Signup Form</h2>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" placeholder="Username" required>
+    
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Full Name" required>
+    
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="domain@example.com" required>
+    
+            <label for="telephone">Telephone</label>
+            <input type="tel" id="telephone" name="telephone" placeholder="00964 000 00 00 00" required>
+    
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Password" required>
+    
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob" required>
+    
+            <label for="profile-color">Profile Color</label>
+            <input type="color" id="profile-color" name="profile-color" value="#6a0dad">
+    
+            <label>Marital status</label>
+            <div>
+                <input type="radio" id="single" name="marital_status" value="single">
+                <label for="single">Single</label>
+                <input type="radio" id="married" name="marital_status" value="married">
+                <label for="married">Married</label>
+                <input type="radio" id="private" name="marital_status" value="private">
+                <label for="private">It is private</label>
+            </div>
+    
+            <label for="children">No. of Children</label>
+            <select id="children" name="children">
+                <option value="none">None</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+    
+            <label for="degrees">Choose your Degrees</label>
+            <select id="degrees" name="degrees" multiple>
+                <option value="diploma">Diploma</option>
+                <option value="bsc">Bachelor of Science (BSc)</option>
+                <option value="ba">Bachelor of Arts (BA)</option>
+                <option value="high-diploma">High Diploma</option>
+                <option value="msc">Master of Science (MSc)</option>
+            </select>
+    
+            <label for="about">About Yourself</label>
+            <textarea id="about" name="about" placeholder="About Yourself"></textarea>
+    
+            <label for="cv">Upload your CV</label>
+            <input type="file" id="cv" name="cv">
+    
+            <label>Gender</label>
+            <div>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+            </div>
+    
+            <label>Agreements</label>
+            <div>
+                <input type="checkbox" id="terms-read" name="terms-read">
+                <label for="terms-read">I have read all the terms</label><br>
+                <input type="checkbox" id="terms-agree" name="terms-agree">
+                <label for="terms-agree">Yes, I'm agree</label>
+            </div>
+    
+            <button type="submit">Signup</button>
+            <button type="reset">Reset</button>
+        </form>
+    </div>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Sitemap</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Terms and Quick Links</h3>
+                <ul>
+                    <li><a href="#">Term of usage</a></li>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Address and Contact</h3>
+                <p>City, Governate, Country</p>
+                <p>Phone: 00964 000 000 0000</p>
+                <p>Email: example@domain.com</p>
+            </div>
+        </div>
+    </footer>
+    </body>
+    </html>
+    

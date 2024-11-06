@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signin Form</title>
+    <link rel="stylesheet" href="/style/login.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="nav-bar">
+        <div class="title">
+            <h1 class="square"></h1>
+            <h1 class="square" id="rotate"></h1>
+            <h1 id="title">WebDesign 2021 Assignment</h1>
+        </div>
+        <div class="sections">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="#">Layout Design</a></li>
+                <li><a href="#">Signup</a></li>
+                <li><a href="#">Signin</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Signin Form -->
+    <div class="signin-form">
+        <h2>Signin Form</h2>
+        <form action="login_process.php" method="post">
+            <label for="username">Username or Email</label>
+            <input type="text" id="username" name="username" placeholder="Username or Email" required>
+            
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Password" required>
+            
+            <a href="#">Forgot Password?</a>
+            <button type="submit">Sign In</button>
+        </form>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-section">
+            <div class="sitemap">
+                <h3>Sitemap</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </div>
+            <div class="terms">
+                <h3>Terms and Quick Links</h3>
+                <ul>
+                    <li><a href="#">Terms of Usage</a></li>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                </ul>
+            </div>
+            <div class="contact-info">
+                <h3>Address and Contact</h3>
+                <p>City, Governorate, Country</p>
+                <p>Phone: 0964 000 000 0000</p>
+                <p>Email: example@domain.com</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
