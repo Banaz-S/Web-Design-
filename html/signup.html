@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Signup Form</title>
     <link rel="stylesheet" href="/style/signup.css">
 </head>
+
 <body>
     <!-- Navigation Bar -->
     <div class="nav-bar">
@@ -16,12 +18,12 @@
         </div>
         <div class="sections">
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="home.html">Home</a></li>
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="schedule.html">Schedule</a></li>
-                <li><a href="#">Layout Design</a></li>
+                <li><a href="float-layout.html">Layout Design</a></li>
                 <li><a href="#">Signup</a></li>
-                <li><a href="#">Signin</a></li>
+                <li><a href="login.html">Signin</a></li>
             </ul>
         </div>
     </div>
@@ -30,25 +32,25 @@
         <form action="#" method="post" enctype="multipart/form-data">
             <label for="username">Username</label>
             <input type="text" id="username" name="username" placeholder="Username" required>
-    
+
             <label for="fullname">Full Name</label>
             <input type="text" id="fullname" name="fullname" placeholder="Full Name" required>
-    
+
             <label for="email">Email</label>
             <input type="email" id="email" name="email" placeholder="domain@example.com" required>
-    
+
             <label for="telephone">Telephone</label>
             <input type="tel" id="telephone" name="telephone" placeholder="00964 000 00 00 00" required>
-    
+
             <label for="password">Password</label>
             <input type="password" id="password" name="password" placeholder="Password" required>
-    
+
             <label for="dob">Date of Birth</label>
             <input type="date" id="dob" name="dob" required>
-    
+
             <label for="profile-color">Profile Color</label>
             <input type="color" id="profile-color" name="profile-color" value="#6a0dad">
-    
+
             <label>Marital status</label>
             <div>
                 <input type="radio" id="single" name="marital_status" value="single">
@@ -58,7 +60,7 @@
                 <input type="radio" id="private" name="marital_status" value="private">
                 <label for="private">It is private</label>
             </div>
-    
+
             <label for="children">No. of Children</label>
             <select id="children" name="children">
                 <option value="none">None</option>
@@ -68,7 +70,7 @@
                 <option value="4">4</option>
                 <option value="5">5</option>
             </select>
-    
+
             <label for="degrees">Choose your Degrees</label>
             <select id="degrees" name="degrees" multiple>
                 <option value="diploma">Diploma</option>
@@ -77,13 +79,13 @@
                 <option value="high-diploma">High Diploma</option>
                 <option value="msc">Master of Science (MSc)</option>
             </select>
-    
+
             <label for="about">About Yourself</label>
             <textarea id="about" name="about" placeholder="About Yourself"></textarea>
-    
+
             <label for="cv">Upload your CV</label>
             <input type="file" id="cv" name="cv">
-    
+
             <label>Gender</label>
             <div>
                 <input type="radio" id="male" name="gender" value="male">
@@ -91,7 +93,7 @@
                 <input type="radio" id="female" name="gender" value="female">
                 <label for="female">Female</label>
             </div>
-    
+
             <label>Agreements</label>
             <div>
                 <input type="checkbox" id="terms-read" name="terms-read">
@@ -99,12 +101,12 @@
                 <input type="checkbox" id="terms-agree" name="terms-agree">
                 <label for="terms-agree">Yes, I'm agree</label>
             </div>
-    
+
             <button type="submit">Signup</button>
             <button type="reset">Reset</button>
         </form>
     </div>
-    
+
     <!-- Footer -->
     <footer>
         <div class="footer-container">
@@ -134,6 +136,6 @@
             </div>
         </div>
     </footer>
-    </body>
-    </html>
-    
+</body>
+
+</html>
