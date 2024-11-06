@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/layoutdesign.css">
+    <title>Layout Design</title>
+</head>
+<body>
+    <header>
+        <div class="nav-bar">
+            <div class="title">
+                <h1 class="square"></h1>
+                <h1 class="square" id="rotate"></h1>
+                <h1 id="title">WebDesign 2021 Assignment</h1>
+            </div>
+            <div class="sections">
+                <ul>
+                    <li><a href="#" style="color: white;">Home</a></li>
+                    <li><a href="blog.html" style="color: white;">Blog</a></li>
+                    <li><a href="schedule.html" style="color: white;">Schedule</a></li>
+                    <li class="dropdown">
+                        <a href="#" style="color: white;">Layout Design</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="float-layout.html">Float Layout with side Nav</a></li>
+                            <li><a href="flex-layout.html">Flex Layout with side nav</a></li>
+                            <li><a href="grid-layout.html">Grid Layout with side nav</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" style="color: white;">Signup</a></li>
+                    <li><a href="#" style="color: white;">Signin</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="content">
+
+            <!-- Blog Section -->
+            <section id="blogs">
+                <h1>Floated sidebar + Blogs</h1>
+
+                <!-- Blog Post 1 -->
+                <article class="blog-post">
+                    <h3>Topic 1 Lorem ipsum dolor sit amet</h3>
+                    <p>By Himadad Hasan on Monday, 30/11/2020 12:00 PM</p>
+                    <img src="../img2/sky1.jpg" alt="Image for Blog 1">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit... Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, saepe. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam voluptatem voluptatum provident omnis consequuntur magnam veniam quod minus. Facilis molestiae harum modi eveniet ea quasi ex architecto cumque nisi repudiandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sint itaque eveniet dicta, maxime, alias fuga accusamus voluptatum, aliquam sit exercitationem magni eius. Nostrum tempora accusantium eaque neque nesciunt repellendus.
+                    Blanditiis odio nostrum eum nihil quibusdam, dolorum vitae aspernatur quis molestias id impedit? Totam eius nostrum, saepe laboriosam ex odit aliquid, quaerat excepturi eaque ab, nesciunt facere. Assumenda, recusandae fugit.
+                    Amet, aliquam voluptas. Eveniet dolorem iste possimus quos! Autem, dicta, magni eos animi recusandae odio eligendi aperiam possimus suscipit voluptatibus fuga mollitia praesentium, cum molestiae laudantium ducimus repellat reiciendis explicabo!
+                    Quasi aut eos, eum nostrum odit perspiciatis omnis id expedita temporibus repellendus quidem commodi minima magni repudiandae similique, perferendis unde exercitationem delectus quisquam optio. Saepe dicta natus tempora adipisci architecto.
+                    Accusantium nostrum ea accusamus enim, alias architecto! Vel quam, odit modi consequuntur magnam explicabo nulla. Voluptatibus distinctio at fuga optio rerum omnis, nemo nesciunt et id laborum, aliquid animi exercitationem!
+                    Commodi, nulla! Esse ipsam necessitatibus quos molestias. Neque odio possimus itaque in beatae dignissimos, tempora vel aliquam placeat necessitatibus pariatur fugit vitae facere porro, praesentium enim tenetur facilis omnis quam.
+                    Sed, accusamus vel consequatur distinctio illum veniam maiores esse veritatis? Officia cum commodi veniam distinctio? Tenetur exercitationem debitis sunt, iste optio dolores dolor perferendis, repudiandae inventore quo, minus tempora consectetur!
+                    Soluta nesciunt necessitatibus voluptas officia ducimus inventore vitae ipsa. Nulla at modi consequatur, quos pariatur reprehenderit ea? Velit officia, reprehenderit ipsam veniam aliquid, consectetur doloremque ex animi amet suscipit quasi.
+                    Inventore magni veritatis unde, dignissimos, illum adipisci ad iste explicabo itaque sint laudantium at commodi id aspernatur. Quibusdam quidem, sequi facere enim repellendus quod? Necessitatibus sequi fugit dolores architecto voluptas.
+                    Voluptas similique nam eum totam et, hic aperiam, in ad ipsam dolor porro corrupti ipsa excepturi nostrum commodi culpa nobis suscipit tempore, expedita maxime. Aspernatur ad ea possimus amet neque!</p>
+                </article>
+
+                <!-- Blog Post 2 -->
+                <article class="blog-post">
+                    <h3>Topic 2 Quo, excepturi incidunt</h3>
+                    <p>By Ari Abdullah on Wednesday, 02/12/2020 01:00 PM</p>
+                    <img src="../img2/sky2.jpg" alt="Image for Blog 2">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit... Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, saepe. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam voluptatem voluptatum provident omnis consequuntur magnam veniam quod minus. Facilis molestiae harum modi eveniet ea quasi ex architecto cumque nisi repudiandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sint itaque eveniet dicta, maxime, alias fuga accusamus voluptatum, aliquam sit exercitationem magni eius. Nostrum tempora accusantium eaque neque nesciunt repellendus.
+                        Blanditiis odio nostrum eum nihil quibusdam, dolorum vitae aspernatur quis molestias id impedit? Totam eius nostrum, saepe laboriosam ex odit aliquid, quaerat excepturi eaque ab, nesciunt facere. Assumenda, recusandae fugit.
+                        Amet, aliquam voluptas. Eveniet dolorem iste possimus quos! Autem, dicta, magni eos animi recusandae odio eligendi aperiam possimus suscipit voluptatibus fuga mollitia praesentium, cum molestiae laudantium ducimus repellat reiciendis explicabo!
+                        Quasi aut eos, eum nostrum odit perspiciatis omnis id expedita temporibus repellendus quidem commodi minima magni repudiandae similique, perferendis unde exercitationem delectus quisquam optio. Saepe dicta natus tempora adipisci architecto.
+                        Accusantium nostrum ea accusamus enim, alias architecto! Vel quam, odit modi consequuntur magnam explicabo nulla. Voluptatibus distinctio at fuga optio rerum omnis, nemo nesciunt et id laborum, aliquid animi exercitationem!
+                        Commodi, nulla! Esse ipsam necessitatibus quos molestias. Neque odio possimus itaque in beatae dignissimos, tempora vel aliquam placeat necessitatibus pariatur fugit vitae facere porro, praesentium enim tenetur facilis omnis quam.
+                        Sed, accusamus vel consequatur distinctio illum veniam maiores esse veritatis? Officia cum commodi veniam distinctio? Tenetur exercitationem debitis sunt, iste optio dolores dolor perferendis, repudiandae inventore quo, minus tempora consectetur!
+                        Soluta nesciunt necessitatibus voluptas officia ducimus inventore vitae ipsa. Nulla at modi consequatur, quos pariatur reprehenderit ea? Velit officia, reprehenderit ipsam veniam aliquid, consectetur doloremque ex animi amet suscipit quasi.
+                        Inventore magni veritatis unde, dignissimos, illum adipisci ad iste explicabo itaque sint laudantium at commodi id aspernatur. Quibusdam quidem, sequi facere enim repellendus quod? Necessitatibus sequi fugit dolores architecto voluptas.
+                        Voluptas similique nam eum totam et, hic aperiam, in ad ipsam dolor porro corrupti ipsa excepturi nostrum commodi culpa nobis suscipit tempore, expedita maxime. Aspernatur ad ea possimus amet neque!</p>
+                </article>
+
+                <!-- Blog Post 3 -->
+                <article class="blog-post">
+                    <h3>Topic 3 Doloremque incidunt accusantium explicabo autem dolorum</h3>
+                    <p>By Himadad Hasan on Saturday, 02/12/2020 03:00 PM</p>
+                    <img src="../img2/sky3.jpg" alt="Image for Blog 3">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit... Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, saepe. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam voluptatem voluptatum provident omnis consequuntur magnam veniam quod minus. Facilis molestiae harum modi eveniet ea quasi ex architecto cumque nisi repudiandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sint itaque eveniet dicta, maxime, alias fuga accusamus voluptatum, aliquam sit exercitationem magni eius. Nostrum tempora accusantium eaque neque nesciunt repellendus.
+                        Blanditiis odio nostrum eum nihil quibusdam, dolorum vitae aspernatur quis molestias id impedit? Totam eius nostrum, saepe laboriosam ex odit aliquid, quaerat excepturi eaque ab, nesciunt facere. Assumenda, recusandae fugit.
+                        Amet, aliquam voluptas. Eveniet dolorem iste possimus quos! Autem, dicta, magni eos animi recusandae odio eligendi aperiam possimus suscipit voluptatibus fuga mollitia praesentium, cum molestiae laudantium ducimus repellat reiciendis explicabo!
+                        Quasi aut eos, eum nostrum odit perspiciatis omnis id expedita temporibus repellendus quidem commodi minima magni repudiandae similique, perferendis unde exercitationem delectus quisquam optio. Saepe dicta natus tempora adipisci architecto.
+                        Accusantium nostrum ea accusamus enim, alias architecto! Vel quam, odit modi consequuntur magnam explicabo nulla. Voluptatibus distinctio at fuga optio rerum omnis, nemo nesciunt et id laborum, aliquid animi exercitationem!
+                        Commodi, nulla! Esse ipsam necessitatibus quos molestias. Neque odio possimus itaque in beatae dignissimos, tempora vel aliquam placeat necessitatibus pariatur fugit vitae facere porro, praesentium enim tenetur facilis omnis quam.
+                        Sed, accusamus vel consequatur distinctio illum veniam maiores esse veritatis? Officia cum commodi veniam distinctio? Tenetur exercitationem debitis sunt, iste optio dolores dolor perferendis, repudiandae inventore quo, minus tempora consectetur!
+                        Soluta nesciunt necessitatibus voluptas officia ducimus inventore vitae ipsa. Nulla at modi consequatur, quos pariatur reprehenderit ea? Velit officia, reprehenderit ipsam veniam aliquid, consectetur doloremque ex animi amet suscipit quasi.
+                        Inventore magni veritatis unde, dignissimos, illum adipisci ad iste explicabo itaque sint laudantium at commodi id aspernatur. Quibusdam quidem, sequi facere enim repellendus quod? Necessitatibus sequi fugit dolores architecto voluptas.
+                        Voluptas similique nam eum totam et, hic aperiam, in ad ipsam dolor porro corrupti ipsa excepturi nostrum commodi culpa nobis suscipit tempore, expedita maxime. Aspernatur ad ea possimus amet neque!</p>
+                </article>
+            </section>
+
+            <!-- Sidebar -->
+            <aside id="sidebar">
+                <h3>Layout Design</h3>
+                <ul>
+                    <li><a href="#">Float Layout with Side nav</a></li>
+                    <li><a href="#">Flexbox Layout with Side nav</a></li>
+                    <li><a href="#">Grid Layout with Side nav</a></li>
+                </ul>
+            </aside>
+        </div>
+    </main>
+    
+    
+
+    <footer>
+        <div class="footer-section">
+            <h4>Sitemap</h4>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Terms and Quick Links</h4>
+            <ul>
+                <li><a href="#">Term of usage</a></li>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Address and Contact</h4>
+            <p>City, Governate, Country <br>
+                Phone: 0964 000 000 000 <br>
+                Email: example@domain.com</p>
+        </div>
+    </footer>
+
+</body>
+</html>
