@@ -63,13 +63,15 @@ header nav ul li a:hover {
 }
 
 /* Sidebar */
-#sidebar {
+#sidebar div {
     float: right;
-    width: 5000px;
+    width: 250px;
     height: 150px;
     padding: 20px;
     background-color: rgb(237, 244, 241);
     border-top: 10px solid rgba(203, 63, 24, 0.949);
+    position: relative;
+    left: -300px;
 }
 
 #sidebar h3 {
@@ -107,8 +109,6 @@ header nav ul li a:hover {
     gap: 20px;
 }
 
-
-
 .blog-post {
     margin-bottom: 20px;
     padding: 15px;
@@ -133,42 +133,10 @@ header nav ul li a:hover {
     margin-top: 10px;
 }
 
-/* Footer */
-footer {
-    display: flex;
-    justify-content: space-around;
-    background-color: rgb(56, 109, 97);
-    border-top: 12px solid rgba(229, 155, 19, 0.949);
-    color: white;
-    padding: 20px;
-    margin-top: 30px;
+.text {
+    width: 950px;
 }
 
-.footer-section {
-    width: 30%;
-}
-
-.footer-section h4 {
-    margin-bottom: 10px;
-}
-
-.footer-section ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.footer-section ul li {
-    margin-bottom: 5px;
-}
-
-.footer-section ul li a {
-    color: #e6e6e6;
-    text-decoration: none;
-}
-
-.footer-section p {
-    color: #e6e6e6;
-}
 
 /* Dropdown Menu */
 .dropdown-menu {
@@ -245,3 +213,39 @@ footer {
     height: 600px;
 }
 
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(56, 109, 97);
+    border-top: 12px solid rgba(229, 155, 19, 0.949);
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.footer-section {
+    width: 30%;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+    color: #e6e6e6;
+    text-decoration: none;
+}
+
+.footer-section p {
+    color: #e6e6e6;
+}

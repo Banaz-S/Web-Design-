@@ -91,6 +91,13 @@ body {
     text-align: center;
     cursor: pointer;
     /* Optional: change cursor on hover */
+    font-size: 18px;
+}
+
+.box a {
+    text-decoration: none;
+    color: rgb(56, 109, 97);
+    font-size: 18px;
 }
 
 .box {
@@ -106,6 +113,7 @@ body {
     font-weight: 600;
 
 }
+
 
 .center {
     padding: 20px;

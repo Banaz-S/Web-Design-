@@ -24,7 +24,7 @@
                     <li class="dropdown">
                         <a class="catalog" href="#">Layout Design</a>
                         <ul class="dropdown-menu">
-                            <li><a href="float-layout.html">Float Layout with side Nav</a></li>
+                            <li><a href="#">Float Layout with side Nav</a></li>
                             <li><a href="flex-layout.html">Flex Layout with side nav</a></li>
                             <li><a href="grid-layout.html">Grid Layout with side nav</a></li>
                         </ul>
@@ -37,17 +37,17 @@
     </header>
     <main>
         <div id="content">
-
             <!-- Blog Section -->
             <section id="blogs">
                 <h1>Floated sidebar + Blogs</h1>
 
                 <!-- Blog Post 1 -->
-                <article class="blog-post">
+                <div class="blog-post">
                     <h3>Topic 1 Lorem ipsum dolor sit amet</h3>
                     <p>By Himadad Hasan on Monday, 30/11/2020 12:00 PM</p>
                     <img src="../img2/sky1.jpg" alt="Image for Blog 1">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit... Lorem, ipsum dolor sit amet
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit... Lorem, ipsum dolor sit
+                        amet
                         consectetur adipisicing elit. Aperiam, saepe. Lorem ipsum dolor sit amet consectetur,
                         adipisicing elit. Quibusdam voluptatem voluptatum provident omnis consequuntur magnam veniam
                         quod minus. Facilis molestiae harum modi eveniet ea quasi ex architecto cumque nisi repudiandae.
@@ -81,14 +81,15 @@
                         Voluptas similique nam eum totam et, hic aperiam, in ad ipsam dolor porro corrupti ipsa
                         excepturi nostrum commodi culpa nobis suscipit tempore, expedita maxime. Aspernatur ad ea
                         possimus amet neque!</p>
-                </article>
+                </div>
 
                 <!-- Blog Post 2 -->
                 <article class="blog-post">
                     <h3>Topic 2 Quo, excepturi incidunt</h3>
                     <p>By Ari Abdullah on Wednesday, 02/12/2020 01:00 PM</p>
                     <img src="../img2/sky2.jpg" alt="Image for Blog 2">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit... Lorem, ipsum dolor sit amet
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit... Lorem, ipsum dolor sit
+                        amet
                         consectetur adipisicing elit. Aperiam, saepe. Lorem ipsum dolor sit amet consectetur,
                         adipisicing elit. Quibusdam voluptatem voluptatum provident omnis consequuntur magnam veniam
                         quod minus. Facilis molestiae harum modi eveniet ea quasi ex architecto cumque nisi repudiandae.
@@ -129,7 +130,8 @@
                     <h3>Topic 3 Doloremque incidunt accusantium explicabo autem dolorum</h3>
                     <p>By Himadad Hasan on Saturday, 02/12/2020 03:00 PM</p>
                     <img src="../img2/sky3.jpg" alt="Image for Blog 3">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit... Lorem, ipsum dolor sit amet
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit... Lorem, ipsum dolor sit
+                        amet
                         consectetur adipisicing elit. Aperiam, saepe. Lorem ipsum dolor sit amet consectetur,
                         adipisicing elit. Quibusdam voluptatem voluptatum provident omnis consequuntur magnam veniam
                         quod minus. Facilis molestiae harum modi eveniet ea quasi ex architecto cumque nisi repudiandae.
@@ -168,12 +170,14 @@
 
             <!-- Sidebar -->
             <aside id="sidebar">
-                <h3>Layout Design</h3>
-                <ul>
-                    <li><a href="#">Float Layout with Side nav</a></li>
-                    <li><a href="#">Flexbox Layout with Side nav</a></li>
-                    <li><a href="#">Grid Layout with Side nav</a></li>
-                </ul>
+                <div>
+                    <h3>Layout Design</h3>
+                    <ul>
+                        <li><a href="#">Float Layout with Side nav</a></li>
+                        <li><a href="#">Flexbox Layout with Side nav</a></li>
+                        <li><a href="grid-layout.html">Grid Layout with Side nav</a></li>
+                    </ul>
+                </div>
             </aside>
         </div>
     </main>

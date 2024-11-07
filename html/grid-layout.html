@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/gridlayoutdesign.css">
-    <title>Layout Design</title>
+    <title>WebDesign 2021 Assignment</title>
 </head>
+
 <body>
     <header>
         <div class="nav-bar">
@@ -16,73 +18,97 @@
             </div>
             <div class="sections">
                 <ul>
-                    <li><a href="#" >Home</a></li>
-                    <li><a href="blog.html" >Blog</a></li>
-                    <li><a href="schedule.html">Schedule</a></li>
+                    <li><a class="catalog" href="home.html">Home</a></li>
+                    <li><a class="catalog" href="blog.html">Blog</a></li>
+                    <li><a class="catalog" href="schedule.html">Schedule</a></li>
                     <li class="dropdown">
-                        <a href="#" >Layout Design</a>
+                        <a class="catalog" href="#">Layout Design</a>
                         <ul class="dropdown-menu">
                             <li><a href="float-layout.html">Float Layout with side Nav</a></li>
                             <li><a href="flex-layout.html">Flex Layout with side nav</a></li>
-                            <li><a href="grid-layout.html">Grid Layout with side nav</a></li>
+                            <li><a href="#">Grid Layout with side nav</a></li>
                         </ul>
                     </li>
-                    <li><a href="#" style="color: white;">Signup</a></li>
-                    <li><a href="#" style="color: white;">Signin</a></li>
+                    <li><a class="catalog" href="signup.html" style="color: white;">Signup</a></li>
+                    <li><a class="catalog" href="signin.html" style="color: white;">Signin</a></li>
                 </ul>
             </div>
         </div>
     </header>
+
     <!-- Blog Section -->
-    <h1 id="mrdm">Floated sidebar + Blogs</h1>
-<section id="blogs">
-   
+    <h1 id="topic">Grid View Blogs</h1>
 
-    <div class="left-content">
-        <!-- Blog Post 1 -->
-        <article class="blog-post">
-            <h3>Topic 1 Lorem ipsum dolor sit amet</h3>
-            <p>By Himadad Hasan on Monday, 30/11/2020 12:00 PM</p>
-            <img src="../img2/sky1.jpg" alt="Image for Blog 1">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit... Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, saepe. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam voluptatem voluptatum provident omnis consequuntur magnam veniam quod minus. Facilis molestiae harum modi eveniet ea quasi ex architecto cumque nisi repudiandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sint itaque eveniet dicta, maxime, alias fuga accusamus voluptatum, aliquam sit exercitationem magni eius. N</p>
-        </article>
+    <section id="blogs">
+        <div class="left-content">
+            <!-- Blog Post 1 -->
+            <article class="blog-post" id="topic1">
+                <h3>Topic 1 Lorem ipsum dolor sit amet</h3>
+                <p>By Himdad Hasan on Monday, 30/11/2020 12:00 PM</p>
+                <img src="../img2/sky1.jpg" alt="Image for Blog 1">
+                <p class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit fuga nam
+                    reiciendis commodi aperiam possimus laboriosam, molestiae nihil neque neque
+                    eaque distinctio, minima delectus libero sunt ipsum! Minima, eaque sed.
+                    <br><br>
+                    Sit, quisquam. In tempora a officiis consectetur ex sint ab dolor facilis,
+                    quam autem distinctio mollitia error tempora! Cum esse incidunt suscipit dicta
+                    ratione, ipsam eos iusto facere quia neque!
+                </p>
+            </article>
 
-        <!-- Blog Post 2 -->
-        <article class="blog-post">
-            <h3>Topic 2 Quo, excepturi incidunt</h3>
-            <p>By Ari Abdullah on Wednesday, 02/12/2020 01:00 PM</p>
-            <img src="../img2/sky2.jpg" alt="Image for Blog 2">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit... Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, saepe. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam voluptatem voluptatum provident omnis consequuntur magnam veniam quod minus. Facilis molestiae harum modi eveniet ea quasi ex architecto cumque nisi repudiandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sint itaque eveniet dicta, maxime, alias fuga accusamus voluptatum, aliquam sit exercitationem magni eius. Nostrum tempora accusantium eaque neque nesciunt repellendus.
-                mmodi culpa nobis suscipit tempore, expedita maxime. Aspernatur ad ea possimus amet neque!</p>
-        </article>
-    </div>
+            <!-- Blog Post 2 -->
+            <article class="blog-post" id="topic2">
+                <h3>Topic 2 Quo, excepturi incidunt</h3>
+                <p>By Ari Abdullah on Wednesday, 02/12/2020 01:00 PM</p>
+                <img src="../img2/sky2.jpg" alt="Image for Blog 2">
+                <p class="text">
+                    Quo, excepturi incidunt. Perferendis accusamus maiores enim numquam illo
+                    obcaecati, repellat animi velit quisquam voluptatem. Totam consequatur soluta,
+                    libero quasi, cumque asperiores similique veritatis et earum autem corrupti,
+                    repudiandae rerum!
+                    <br><br>
+                    Quaerat explicabo possimus id quos quas, molestiae, ipsa corporis unde architecto
+                    sed iste doloremque adipisci blanditiis nemo! Cum facere, aut perspiciatis
+                    repudiandae perferendis deleniti cupiditate.
+                </p>
+            </article>
+        </div>
 
-    <div class="right-content">
-        <!-- Blog Post 3 -->
-        <article class="blog-post">
-            <h3>Topic 3 Doloremque incidunt accusantium explicabo autem dolorum</h3>
-            <p>By Himadad Hasan on Saturday, 02/12/2020 03:00 PM</p>
-            <img src="../img2/sky3.jpg" alt="Image for Blog 3">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit... Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, saepe. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam voluptatem voluptatum provident omnis consequuntur magnam veniam quod minus. Facilis molestiae harum modi eveniet ea quasi ex architecto cumque nisi repudiandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sint itaque eveniet dicta, maxime, alias fuga accusamus voluptatum, aliquam sit exercitationem magni eius. Nostrum tempora accusantium eaque neque nesciunt repellendus.
-                Blanditiis odio nostrum eum nihil quibusdam, dolorum vitae aspernatur quis molestias id impedit? Totam eius nostrum, saepe laboriosam ex odit aliquid, quaerat excepturi eaque ab, nesciunt facere. Assumenda, recusandae fugit.
-                Amet, aliqumodi culpa nobis suscipit tempore, expedita maxime. Aspernatur ad ea possimus amet neque!</p>
-        </article>
+        <div class="right-content">
+            <!-- Blog Post 3 -->
+            <article class="blog-post">
+                <h3>Topic 3 Doloremque incidunt accusantium explicabo autem dolorum</h3>
+                <p>By Himdad Hasan on Saturday, 05/12/2020 03:00 PM</p>
+                <img src="../img2/sky3.jpg" alt="Image for Blog 3">
+                <p class="text">
+                    Doloremque incidunt accusantium explicabo autem dolorum suscipit harum repudiandae
+                    aut labore eos esse modi, fugit doloribus tempora, neque ratione et. Quasi, at?
+                    Adipisci praesentium ducimus reprehenderit, id officiis enim corrupti?
+                    <br><br>
+                    Consequuntur sit eum dolore deserunt excepturi placeat quis. Incidunt at doloremque
+                    facilis cumque fuga, iure porro vero corrupti exercitationem in praesentium
+                    provident odit vitae nam assumenda.
+                </p>
+            </article>
 
-        <!-- Blog Post 4 -->
-        <article class="blog-post">
-            <h3>Topic 4 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, inventore?</h3>
-            <p>By Himadad Hasan on Saturday, 02/12/2020 03:00 PM</p>
-            <img src="../img2/sky4.jpg" alt="Image for Blog 4">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit... Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, saepe. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam voluptatem voluptatum provident omnis consequuntur magnam veniam quod minus. Facilis molestiae harum modi eveniet ea quasi ex architecto cumque nisi repudiandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sint itaque eveniet dicta, maxime, alias fuga accusamus voluptatum, aliquam sit exercitationem magni eius. Nostrum tempora accusantium eaque neque nesciunt repellendus.
-                Blanditiis odio nostrum eum nihil quibusdam, dolorum vitae aspernatur quis molestias id impedit? Totam eius nostrum, saepe laboriosam ex odit aliquid, quaerat excepturi eaque ab, nesciunt facere. Assumenda, recusandae fugit.
-                Amet, aliquam voluptas. Eveniet dolorem iste possimus quos! Autem, dicta, magni eos animi recusandae odio eligendi aperiam possimus suscipit voluptatibus fuga mollitia praesentium, cum molestiae laudantium ducimus repellat reiciendis explicabo!
-                culpa nobis suscipit tempore, expedita maxime. Aspernatur ad ea possimus amet neque!</p>
-        </article>
-    </div>
-</section>
-
-    
-    
+            <!-- Blog Post 4 -->
+            <article class="blog-post" id="topic4">
+                <h3>Topic 4 Doloremque incidunt accusantium explicabo autem dolorum</h3>
+                <p>By Ari Abdullah on Sunday, 06/12/2020 03:00 PM</p>
+                <img src="../img2/sky4.jpg" alt="Image for Blog 4">
+                <p class="text">
+                    Doloremque incidunt accusantium explicabo autem dolorum suscipit harum repudiandae
+                    aut labore eos esse modi, fugit doloribus tempora, neque ratione et. Quasi, at?
+                    Adipisci praesentium ducimus reprehenderit, id officiis enim corrupti?
+                    <br><br>
+                    Consequuntur sit eum dolore deserunt excepturi placeat quis. Incidunt at doloremque
+                    facilis cumque fuga, iure porro vero corrupti exercitationem in praesentium
+                    provident odit vitae nam assumenda.
+                </p>
+            </article>
+        </div>
+    </section>
 
     <footer>
         <div class="footer-section">
@@ -105,11 +131,11 @@
         </div>
         <div class="footer-section">
             <h4>Address and Contact</h4>
-            <p>City, Governate, Country <br>
-                Phone: 0964 000 000 000 <br>
+            <p>City, Governorate, Country<br>
+                Phone: 0964 000 000 000<br>
                 Email: example@domain.com</p>
         </div>
     </footer>
-
 </body>
+
 </html>
