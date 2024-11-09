@@ -7,24 +7,46 @@ body {
 
 .sections ul li {
     list-style: none;
-    display: inline;
-    padding-right: 40px;
-    position: sticky;
-
+    display: inline-block;
+    margin-right: 40px;
+    position: relative;
+    /* Needed for positioning the ::after element */
 }
 
 .sections ul {
     margin-left: 50px;
-
 }
 
 .sections ul li a {
     text-decoration: none;
     color: white;
     font-size: 18px;
+    padding-bottom: 50px;
+}
 
+
+.sections ul li::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    background: rgba(229, 155, 19, 0.949);
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    /* Start from the middle */
+    transform: translateX(-50%);
+    /* Center the line */
+    transition: width 0.3s ease;
 
 }
+
+.sections ul li:hover::after {
+    width: 100%;
+
+    /* Expand to full width on hover */
+}
+
 
 .sections {
     background-color: rgb(56, 109, 97);
