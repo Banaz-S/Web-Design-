@@ -6,9 +6,6 @@ body {
 }
 
 /* Navbar */
-header {
-    padding-bottom: 20px;
-}
 
 .sections ul li {
     list-style: none;
@@ -52,7 +49,6 @@ header {
     /* Expand to full width on hover */
 }
 
-
 .sections {
     background-color: rgb(56, 109, 97);
     padding: 4px 0px 4px;
@@ -94,6 +90,7 @@ header {
 .title {
     height: 90px;
     padding-left: 50px;
+    color: #084c61;
 }
 
 
