@@ -56,17 +56,20 @@
                 <input type="date" id="dob" name="dob" required>
 
                 <label for="profile-color">Profile Color</label>
-                <input type="color" id="profile-color" name="profile-color" value="#6a0dad">
+                <input type="color" id="profile-color" name="profile-color" value="#6a0dad" >
 
-                <label>Marital status</label>
+               
+               <fieldset >
+                <legend> <label>Marital status</label></legend>
                 <div>
-                    <input type="radio" id="single" name="marital_status" value="single">
-                    <label for="single">Single</label>
-                    <input type="radio" id="married" name="marital_status" value="married">
-                    <label for="married">Married</label>
-                    <input type="radio" id="private" name="marital_status" value="private">
-                    <label for="private">It is private</label>
+                    
+                    <label for="single"><input type="radio" id="single" name="marital_status" value="single">Single</label>
+                    
+                    <label for="married"><input type="radio" id="married" name="marital_status" value="married">Married</label>
+                    
+                    <label for="private"><input type="radio" id="private" name="marital_status" value="private">It is private</label>
                 </div>
+               </fieldset>
 
                 <label for="children">No. of Children</label>
                 <select id="children" name="children">
@@ -90,24 +93,30 @@
                 <label for="about">About Yourself</label>
                 <textarea id="about" name="about" placeholder="About Yourself"></textarea>
 
-                <label for="cv">Upload your CV</label>
-                <input type="file" id="cv" name="cv">
+                <label for="cv">Upload your CV</label><br>
+                <input type="file" id="cv" name="cv" >
+                
 
-                <label>Gender</label>
-                <div>
-                    <input type="radio" id="male" name="gender" value="male">
-                    <label for="male">Male</label>
-                    <input type="radio" id="female" name="gender" value="female">
-                    <label for="female">Female</label>
-                </div>
+                <fieldset style="border: 1px solid; color: rgb(69, 69, 70);">
+                    <legend>Gender</legend>
+                       
+                            
+                            <label for="male"> <input type="radio" id="male" name="gender" value="male">Male</label>
+                           
+                            <label for="female"> <input type="radio" id="female" name="gender" value="female">Female</label>
+                      
+                </fieldset>
 
-                <label>Agreements</label>
+               
+               <fieldset>
+                <legend> <label>Agreements</label></legend>
                 <div>
-                    <input type="checkbox" id="terms-read" name="terms-read">
-                    <label for="terms-read">I have read all the terms</label><br>
-                    <input type="checkbox" id="terms-agree" name="terms-agree">
-                    <label for="terms-agree">Yes, I'm agree</label>
+                    
+                    <label for="terms-read"><input type="checkbox" id="terms-read" name="terms-read">I have read all the terms</label><br>
+                   
+                    <label for="terms-agree"> <input type="checkbox" id="terms-agree" name="terms-agree">Yes, I'm agree</label>
                 </div>
+               </fieldset>
 
                 <button type="submit">Signup</button>
                 <button type="reset">Reset</button>

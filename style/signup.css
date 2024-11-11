@@ -112,6 +112,16 @@ form label {
     font-weight: bold;
 }
 
+form input{
+    border: #084c61;
+    background-color: #f6ebeb;
+    
+}
+
+form #profile-color{
+    background-color: rgb(81, 11, 152);
+}
+
 form input[type="text"],
 form input[type="email"],
 form input[type="tel"],
@@ -159,10 +169,13 @@ form button[type="reset"] {
     border-radius: 4px;
     cursor: pointer;
     margin: 10px 5px 0 0;
+
+   
 }
 
 form button[type="reset"] {
     background-color: #d9534f;
+    margin-left: 900px;
 }
 
 /* Footer styles */
